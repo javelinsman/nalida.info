@@ -200,6 +200,7 @@ hr.small {
 
 .member {
     text-align: center;
+    margin-top: 50px;
 }
 
 .member li {
@@ -218,6 +219,7 @@ hr.small {
 .member img {
     width: 200px;
     height: 200px;
+    margin-bottom: 10px;
 }
 
 /* Callout */
