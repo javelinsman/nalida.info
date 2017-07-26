@@ -164,12 +164,12 @@ hr.small {
     width: 100%;
     height: 100%;
     background-color: rgb(2, 55, 77);
+    /*
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    /*font-family: 'Hanna', sans-serif;*/
-    /*font-family: 'Jeju Myeongjo', serif;*/
+    */
 }
 
 .header * {
@@ -177,11 +177,16 @@ hr.small {
 }
 
 .header .logo {
-    position: absolute;
-    top: 0px;
-    right: 0px;
     width: 150px;
     height: 150px;
+}
+
+@media all and (min-height: 720px) {
+    .header .logo {
+        position: absolute;
+        top: 0px;
+        right: 0px;
+    }
 }
 
 /* About */
